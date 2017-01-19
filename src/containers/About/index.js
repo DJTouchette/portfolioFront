@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { toMonokai, engineers, designer } from './helpers.js'
 import Avatar from 'material-ui/Avatar';
+import bg from '../../assets/images/homeBg.png';
 import './About.css';
 
 class About extends Component {
