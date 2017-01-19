@@ -1,0 +1,21 @@
+.contactContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /*text-align: center;*/
+  height: 80vh;
+  width: 100vw;
+}
+
+.contactContent h1 {
+  font-size: 3vw;
+  color: white;
+  padding-bottom: 5%;
+}
+
+.contactButton {
+  /*padding-top: 5%;*/
+  text-align: center;
+}

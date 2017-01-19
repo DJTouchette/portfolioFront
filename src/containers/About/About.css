@@ -1,0 +1,82 @@
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 150px;
+  height: 100%;
+  width: 100%;
+}
+
+.About img {
+  width: 200px;
+  height: 200px; 
+  /*margin-left: 25px; */
+  margin-top: 10px;
+  margin-bottom: 40%;
+  border-radius: 50%;
+}
+
+.About .textContainer {
+  color: white;
+  z-index: 1;
+  max-width: 401px;
+  padding: 1%;
+  font-weight: bolder;
+  background: black;
+}
+
+.text { 
+  position: relative;
+  display: inline-block;
+  /*font-family: Monaco, Arial, Helvetica, sans-serif;*/
+  background: black;
+  /*margin-bottom: 10%;*/
+}
+
+.text::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 275px;
+  /* Remove display: inline-block if not required to be on the same line as text etc */
+  display: inline-block;
+  background-color: #606060;
+  width: 10px;
+  /* Set height to the line height of .text */
+  height: 24px;
+  /* 
+  Animation paramaters:
+  blink = animation-name, 
+  1s = animation-duration, 
+  step-end = animation-timing-function,
+  infinite = animation-iteration-count
+  */
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@media(max-width: 400px) {
+  .About .textContainer{
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .About {
+    margin-top: 50px;
+  }
+
+}

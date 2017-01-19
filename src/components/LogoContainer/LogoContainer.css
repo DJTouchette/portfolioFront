@@ -1,0 +1,42 @@
+.logoItem {
+  width: 60px;
+  height: 60px;
+  padding: 5%;
+  text-align: center;
+}
+
+.logoItem img {
+  width: 60px;
+  height: 60px;
+}
+
+.logoItem p {
+  /*font-size: 1.5vw;
+  text-align: center;
+  padding-top: 10%;
+  width: 60px;*/
+  /*word-break: word-break;*/
+}
+
+.logoContainer {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.textLogo {
+    font-size: 1.5vw;
+  text-align: center;
+  padding-top: 10%;
+  width: 60px;
+  word-break: break-all;
+}
+
+@media(max-width: 400px) {
+  .textLogo {
+    font-size: 3vw;
+  }
+}

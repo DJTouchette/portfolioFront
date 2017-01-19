@@ -1,0 +1,10 @@
+.icon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.atag {
+  text-decoration: none;
+  color: black;
+}

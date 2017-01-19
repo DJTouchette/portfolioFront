@@ -1,0 +1,30 @@
+.cardItem {
+  width: 100%;
+  /*max-height: 400px;*/
+  margin: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+@media(max-width: 600px) {
+  .cardItem {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

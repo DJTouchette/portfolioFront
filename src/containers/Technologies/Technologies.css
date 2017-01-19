@@ -1,0 +1,16 @@
+.technologiesContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  margin-top: 10%;
+
+}
+
+.technologiesContent h1 {
+  font-size: 3vh;
+  max-width: 90%;
+  padding-bottom: 10%;
+}
