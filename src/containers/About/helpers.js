@@ -9,8 +9,8 @@ function toMonokai(id, message) {
     }
 }
 
-const engineers = "I'm a fullstack developer with a focus on the back-end. Designing APIs and wrapping the whole project together is what I love to do. I've worked with companys from a team memeber to a project leader, I always focus on not reinventing the wheel and simplicity. In my most recent projects I have been utilizing Node.js and Express.js but will always favor the best tool for the job. I have also developed projects for IOS and Rasberry PI.";
+const engineers = "I'm a fullstack developer with a focus on the back-end. Designing APIs and wrapping the whole project together is what I love to do. I've worked with companies from a team memeber to a project leader, I always focus on not reinventing the wheel and simplicity. In my most recent projects I have been utilizing Node.js and Express.js but will always favor the best tool for the job. I have also developed projects for IOS and Rasberry PI.";
 
-const designer = "I'll be the first one to tell you i'm not the best with design. On the other hand making a PSD or Sketch design into a reality happens to be my speciality. I can throw my 2 cents in where needed from past expiriences to make the project the best that it can be. I'm a big fan of using Material design where it makes sense to build simple, easy to navigate UI's. In my most recent projects I have utilized React.js and Redux to make for a maintanable front-end.";
+const designer = "Making a PSD or Sketch design into a reality happens to be my speciality. I can throw my 2 cents in where needed from past experience to make the project the best that it can be. I'm a big fan of using Material design where it makes sense to build simple, easy to navigate UI's. In my most recent projects I have utilized React.js and Redux to make for a maintanable front-end.";
 
 export { toMonokai, engineers, designer };
