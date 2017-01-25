@@ -7,7 +7,7 @@ const LogoContainer = (props) => {
   const logos = list.map((item) => {
     return (
       <div className="logoItem">
-        <img src={item.icon} />
+        <img alt={item.name} src={item.icon} />
         <div className="textLogo">
           <p>{item.name}</p>
         </div>

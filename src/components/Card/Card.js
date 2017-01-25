@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
   return (
     <Card>
       <CardMedia>
-        <img src={img} />
+        <img alt={title} src={img} />
       </CardMedia>
       <CardTitle title={title}  />
       <CardText  >
@@ -23,10 +23,10 @@ const ProjectCard = (props) => {
       </CardText>
       <hr/>
       <CardActions>
-      <div className="buttonContainer">
-        {buttons}
-      </div>
-    </CardActions>
+        <div className="buttonContainer">
+          {buttons}
+        </div>
+      </CardActions>
     </Card>
   );
 }

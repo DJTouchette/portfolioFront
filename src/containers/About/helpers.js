@@ -4,7 +4,7 @@ function toMonokai(id, message) {
     var messageArr = message.split(" ");
     var colors = ["#673ab7","#f44336", "#8bc34a",]; // Monokai color scheme
 
-    for (var i = 0; i < messageArr .length; i++) {
+    for (var i = 0; i < messageArr.length; i++) {
       engineers.innerHTML += "<span style='color:" + colors[(i % colors.length)] + ";'>" + messageArr[i] + " </span>";
     }
 }

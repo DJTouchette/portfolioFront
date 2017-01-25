@@ -1,0 +1,9 @@
+#disqus_thread {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#layout {
+  width: 90%;
+}

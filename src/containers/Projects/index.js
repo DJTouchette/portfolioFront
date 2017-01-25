@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CardList from '../../components/Card/index';
-import Card from '../../components/Card/Card';
 import data from './projectData';
 import './Projects.css';
 
@@ -10,10 +9,9 @@ class Projects extends Component {
     return (
       <div>
         <div className="bg"></div>
-        <div className="projectsContent">
-          
-          <CardList list={data} />
-        </div>
+          <div className="projectsContent">
+            <CardList list={data} />
+          </div>
       </div>
     );
   }

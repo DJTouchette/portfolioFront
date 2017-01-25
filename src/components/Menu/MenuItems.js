@@ -12,10 +12,10 @@ const MenuItems = (props) => {
         <Link className="atag" to={item.route}>
           <div className="icon">
             <span>{item.text}</span>
-            <img src={item.icon} />
+            <img alt={item.text} src={item.icon} />
           </div>
         </Link>
-      </ MenuItem>
+      </MenuItem>
     )
   });
 

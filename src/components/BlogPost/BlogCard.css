@@ -1,0 +1,9 @@
+.blog-card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+
+  height: 90vh;
+  width: 100%;
+}

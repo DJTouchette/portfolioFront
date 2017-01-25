@@ -1,12 +1,14 @@
+/* eslint-disable */
+
 function typeText() {
   let container = document.getElementById('changeText');
 
-let things = ['I write code on the Internet...', 'The web is my passion and I want to make a difference', 'Click the hamburger menu to browse my site.'];
-let t = -1;
-let thing = '';
-let message = container.innerHTML;
-let mode = 'write';
-let delay = 1000;
+  let things = ['I write code on the Internet...', 'The web is my passion and I want to make a difference', 'Click the hamburger menu to browse my site.'];
+  let t = -1;
+  let thing = '';
+  let message = container.innerHTML;
+  let mode = 'write';
+  let delay = 1000;
 
 function updateText(txt) {
     container.innerHTML = txt;
@@ -14,7 +16,7 @@ function updateText(txt) {
 
 function tick() {
 
-    if(container.innerHTML.length == 0) {
+    if(container.innerHTML.length === 0) {
         t++;
         thing = things[t];
         message = '';
