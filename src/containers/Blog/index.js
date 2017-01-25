@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import initiateSocket from '../../sockets/index';
-import { socket } from '../../sockets/index';
+// import initiateSocket from '../../sockets/index';
+// import { socket } from '../../sockets/index';
 import BlogCardList from '../../components/BlogOverview/index';
 import ShowPost from '../../components/ShowPost/index';
 import './Blog.css';
@@ -15,17 +15,17 @@ class Blog extends Component {
   }
 
   componentWillMount() {
-    const { postID } = this.props.router.params;
-    const socket = initiateSocket(this);
-    if (postID) return socket.emit('Post:Get', postID);
-
-    socket.emit('Post:GetAll');
+    // const { postID } = this.props.router.params;
+    // const socket = initiateSocket(this);
+    // if (postID) return socket.emit('Post:Get', postID);
+    //
+    // socket.emit('Post:GetAll');
   }
 
   handleClick = (id) => {
-    if (typeof(id) === 'string') return socket.emit('Post:Get', id);
-
-    socket.emit('Post:GetAll');
+    // if (typeof(id) === 'string') return socket.emit('Post:Get', id);
+    //
+    // socket.emit('Post:GetAll');
   }
 
   render() {
@@ -40,11 +40,12 @@ class Blog extends Component {
     return (
       <div id="blog">
         <div className="bg"></div>
-        <div className="">
-          <BlogCardList
+        <div className="container">
+          <h1 style={{ margin: '20%' }}>Comming Soon</h1>
+          {/* <BlogCardList
             data={this.state.posts}
             handleClick={this.handleClick}
-          />
+          /> */}
         </div>
       </div>
     );
