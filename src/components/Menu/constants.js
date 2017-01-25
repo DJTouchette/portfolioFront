@@ -3,6 +3,7 @@ import technology from '../../assets/images/technology.svg';
 import projects from '../../assets/images/projects.svg';
 import home from '../../assets/images/home.svg';
 import contact from '../../assets/images/contact.svg';
+import blog from '../../assets/images/blog.svg';
 
 const menuItems = [
   { text: 'Home', icon: home, route: '/' },
@@ -10,6 +11,7 @@ const menuItems = [
   { text: 'Technologies', icon: technology, route: '/technologies' },
   { text: 'Projects', icon: projects, route: '/projects' },
   { text: 'Contact Me', icon: contact, route: '/contact' },
+  { text: 'Blog', icon: blog, route: '/blog' },
 ];
 
 export { menuItems };
