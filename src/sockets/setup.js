@@ -1,7 +1,7 @@
 import io from 'socket.io-client';
 
 export default function setupSocket() {
-  const socket = io('http://damientouchette.io');
+  const socket = io('https://damientouchette.io');
 
   return socket;
 }
