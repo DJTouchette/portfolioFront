@@ -16,7 +16,7 @@ const BlogCard = (props) => {
       }
       <CardTitle className="blog-title" style={{ fontSize: '40px'  }} title={title}  />
       <CardText>
-        <div className="blog-text">
+        <div>
           {Parser(content.substring(0,100)+'...')}
         </div>
       </CardText>

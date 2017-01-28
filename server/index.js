@@ -2,7 +2,7 @@ const app = require('express')();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 const applyMiddlewares = require('./middlewares/index');
-const port = 8080 || process.env.port;
+const port = 3000 || process.env.port;
 const Events = require('./sockets/index');
 const Post = require('./models/Post');
 require('dotenv').config();
@@ -13,6 +13,9 @@ app.get('*', (req, res) => {
   res.sendFile('build/index.html');
 });
 
+app.get('/about', (req, res) => {
+  res.sendFile('build/index.html');
+});
 server.listen(port, () => {
   console.log('listening on port ' + port);
 //   const post = new Post({
