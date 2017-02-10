@@ -11,7 +11,7 @@ const menuItems = [
   { text: 'Technologies', icon: technology, route: '/technologies' },
   { text: 'Projects', icon: projects, route: '/projects' },
   { text: 'Contact Me', icon: contact, route: '/contact' },
-  { text: 'Blog', icon: blog, route: '/blog' },
+  // { text: 'Blog', icon: blog, route: '/blog' },
 ];
 
 export { menuItems };
