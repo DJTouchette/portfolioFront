@@ -4,6 +4,7 @@ import Technologies from './containers/Technologies/index';
 import Projects from './containers/Projects/index';
 import Contact from './containers/Contact/index';
 import Blog from './containers/Blog/index';
+import Testimonials from './containers/Testimonials/index';
 import NotFound from './containers/NotFound/index';
 
 const routes = [
@@ -41,6 +42,11 @@ const routes = [
     path: '/blog',
     name: 'blog',
     component: Blog,
+  },
+  {
+    path: '/Testimonials',
+    name: 'testimonials',
+    component: Testimonials,
   },
   {
     path: '*',

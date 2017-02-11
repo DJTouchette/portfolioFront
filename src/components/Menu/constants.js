@@ -7,6 +7,7 @@ import blog from '../../assets/images/blog.svg';
 
 const menuItems = [
   { text: 'Home', icon: home, route: '/' },
+  { text: 'Testimonials', icon: blog, route: '/testimonials' },
   { text: 'About Me', icon: about, route: '/about' },
   { text: 'Technologies', icon: technology, route: '/technologies' },
   { text: 'Projects', icon: projects, route: '/projects' },

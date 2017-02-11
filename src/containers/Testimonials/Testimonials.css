@@ -1,0 +1,17 @@
+.testimonial-container {
+  width: 105vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*text-align: center;*/
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+@media(min-width: 350px) {
+  .testimonial-container {
+    margin: 2.5%;
+    text-align: center;
+    justify-content: center;
+  }
+}

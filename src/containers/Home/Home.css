@@ -5,15 +5,42 @@
 }
 
 .content {
-  
+
   z-index: 9999;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
+  margin-top: 25%;
 
-  height: 90vh;
-  width: 100vw;
+  /*height: 90vh;
+  width: 100vw;*/
 }
 
+.testimonialCard {
+  width: 90%;
+
+}
+
+.testiomicalColor {
+  background-color: #3f51b5;
+}
+
+.testimonial-text {
+  line-height: 150%;
+  color: white;
+}
+
+.homeTestimonial {
+  width: 50%;
+  margin-left: 23%;
+  margin-top: 20%;
+}
+
+@media(max-width: 750px) {
+  .homeTestimonial {
+    width: 90%;
+    margin: 20% 0 0 5%;
+  }
+}
