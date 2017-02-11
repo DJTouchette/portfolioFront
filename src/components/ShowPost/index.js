@@ -22,7 +22,7 @@ const ShowBlogCard = (props) => {
         <CardTitle style={{ textAlign: 'center' }} title={title}  />
         <CardText  >
           <div className="blog-text">
-            {Parser(content)}
+            {/* {Parser(content)} */}
           </div>
         </CardText>
       </Card>
