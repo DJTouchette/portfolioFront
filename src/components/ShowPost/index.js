@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, CardMedia, CardTitle, CardText } from 'material-ui/Card';
 import RaisedButton from 'material-ui/RaisedButton';
 import { Link } from 'react-router';
-import Parser from 'html-react-parser';
+// import Parser from 'html-react-parser';
 import './ShowPost.css'
 const ShowBlogCard = (props) => {
   const { content, title, heroImg, _id, handleClick } = props;
