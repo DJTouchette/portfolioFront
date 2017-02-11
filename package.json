@@ -53,6 +53,7 @@
     "express": "^4.14.0",
     "fetch": "^1.1.0",
     "grommet": "^1.2.0",
+    "html-react-parser": "^0.3.3",
     "material-design-icons": "^3.0.1",
     "material-ui": "^0.16.7",
     "mdbootstrap": "^4.3.0",
