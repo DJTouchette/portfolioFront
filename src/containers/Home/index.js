@@ -20,10 +20,6 @@ class Home extends Component {
             <h1 id="changeText">Hello World.</h1>
           </div>
           <div className="">
-            <Card
-              cssClass="homeTestimonial"
-              {...data[1]}
-            />
           </div>
         </div>
       </div>

@@ -9,6 +9,10 @@
   width: 100vw;
 }
 
+.contactContact form {
+  max-width: 700px;
+}
+
 .contactContent h1 {
   font-size: 3vw;
   color: white;

@@ -11,4 +11,9 @@ export const data = [
     text: 'Ninja developer skills. I couldnt recommend more! Perfect in communication, really fast work!',
     title: 'Michael',
   },
+  {
+    img: 'http://www.twosocial.com/uploads/1434683751-emptyavatar.jpg',
+    text: 'Damien went well above and beyond with this small but complex project. I was impressed not only with his coding, but his excellent and clear communications and superb aesthetics. He has a flair for design as well as coding.',
+    title: 'Troy',
+  },
 ];
