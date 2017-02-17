@@ -60,6 +60,10 @@ iframe {
    padding-top: 50px;
 }
 
+iframe body {
+  pointer-events: none;
+}
+
 @media(max-width: 900px) {
   iframe {
     width: 103vw;

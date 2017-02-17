@@ -51,19 +51,13 @@ const routes = [
   {
     path: '/cv/:action',
     name: 'download cv',
-    // onEnter: () => {
-    // window.location.replace('https://www.visualcv.com/1lz1cq4kuiq/pdf');
-    // },
+    onEnter: () => {
+      console.log(window.innerWidth);
+      if (window.innerWidth < 450) return window.location.replace('https://www.visualcv.com/1lz1cq4kuiq');
+
+    },
     component: Home,
   },
-  // {
-  //   path: '/cv/view',
-  //   name: 'view cv',
-  //   onEnter: () => {
-  //   window.location.replace('https://www.visualcv.com/1lz1cq4kuiq');
-  //   },
-  //   component: Home,
-  // },
   {
     path: '*',
     name: 'NotFound',
