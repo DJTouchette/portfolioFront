@@ -8,7 +8,8 @@ const data = [
     links: [
       {
         label: 'View CV',
-        href: 'https://www.visualcv.com/1lz1cq4kuiq'
+        href: '/cv/view',
+        Link: true,
       },
       {
       	label: 'Download CV',
