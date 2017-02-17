@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './Home.css';
 import { typeText } from './helpers';
-import Card from '../../components/TestimonialCard/Card';
-import { data } from '../../containers/Testimonials/data';
+import postFetch from '../Contact/helpers';
 
 class Home extends Component {
   // constructor
 
   componentDidMount() {
+    const body = { name: 'Visit', email: 'me@me.com', description: 'visit plus 1', message: 'New visit', budget: 0 };
+    postFetch('https://damientouchette.io/api/v1/quote', body).then((json) => {
+      console.log(json);
+    });
     typeText();
   }
 

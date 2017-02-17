@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './containers/App/index';
 import './index.css';
 import routes from './routes';
-import { Router, browserHistory, hashHistory } from 'react-router';
+import { Router, hashHistory } from 'react-router';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
