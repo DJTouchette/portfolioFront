@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './containers/App/index';
 import './index.css';
 import routes from './routes';
-import { Router, hashHistory } from 'react-router';
+import { Router, browserHistory } from 'react-router';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
@@ -21,7 +21,7 @@ const rootRoute = {
 ReactDOM.render(
   <MuiThemeProvider muiTheme={getMuiTheme(muiTheme)}>
     <Router
-      history={hashHistory}
+      history={browserHistory}
       routes={rootRoute}>
     </Router>
   </MuiThemeProvider>,

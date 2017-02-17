@@ -13,9 +13,9 @@ app.get('*', (req, res) => {
   res.sendFile('build/index.html');
 });
 
-app.get('/about', (req, res) => {
-  res.sendFile('build/index.html');
-});
+// app.get('/about', (req, res) => {
+//   res.sendFile('build/index.html');
+// });
 server.listen(port, () => {
   console.log('listening on port ' + port);
 //   const post = new Post({
