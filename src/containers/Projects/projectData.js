@@ -11,8 +11,8 @@ const data = [
         href: 'https://www.visualcv.com/1lz1cq4kuiq'
       },
       {
-	label: 'Download CV',
-	href: 'https://www.visualcv.com/1lz1cq4kuiq/pdf',
+      	label: 'Download CV',
+      	href: 'https://www.visualcv.com/1lz1cq4kuiq/pdf',
       },
     ]
   },

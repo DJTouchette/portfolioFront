@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
   return (
       <a href="https://www.upwork.com/fl/damientouchette">
         <div className={ cssClass? cssClass : 'testimonialCard'}>
-          <div style={{ border: '3px solid #3f51b5' }} className="card testimonial-card">
+          <div style={{ border: '3px solid #2c5591' }} className="card testimonial-card">
             <div className="card-up testiomicalColor">
             </div>
             <div className="avatar"><img src={img} className="rounded-circle img-responsive" />

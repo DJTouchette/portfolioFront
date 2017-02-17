@@ -17,7 +17,7 @@ export class Menu extends React.Component {
 
   render() {
     return (
-      <div>
+      <div style={{ position: 'fixed', top: 0, width: '100%', zIndex: '7807147444'}}>
         <AppBar
           title="Damien Touchette"
           iconClassNameRight="muidocs-icon-navigation-expand-more"
@@ -29,13 +29,13 @@ export class Menu extends React.Component {
           open={this.state.open}
           onRequestChange={(open) => this.setState({open})}
         >
-          <Avatar 
-            src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p320x320/14344242_10157397839770453_6370521732679464114_n.jpg?oh=b0e2c62c85f280e2fda9b9e7256006dd&oe=5907ED8F" 
+          <Avatar
+            src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p320x320/14344242_10157397839770453_6370521732679464114_n.jpg?oh=b0e2c62c85f280e2fda9b9e7256006dd&oe=5907ED8F"
             style={{ width: '150px', height: '150px', marginLeft: '25px', marginTop: '10px'}}
           />
           <hr/>
-          <MenuItems 
-            handleClick={this.handleClose.bind(this)} 
+          <MenuItems
+            handleClick={this.handleClose.bind(this)}
             list={menuItems}
           />
           <hr/>

@@ -6,6 +6,7 @@
   /*text-align: center;*/
   flex-direction: column;
   overflow-x: hidden;
+  padding-top: 5%;
 }
 
 @media(min-width: 350px) {

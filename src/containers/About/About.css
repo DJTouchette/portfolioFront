@@ -7,11 +7,13 @@
   margin-top: 150px;
   height: 100%;
   width: 100%;
+
+  padding-top: 5%;
 }
 
 .About img {
   width: 200px;
-  height: 200px; 
+  height: 200px;
   /*margin-left: 25px; */
   margin-top: 10px;
   margin-bottom: 40%;
@@ -27,7 +29,7 @@
   background: black;
 }
 
-.text { 
+.text {
   position: relative;
   display: inline-block;
   /*font-family: Monaco, Arial, Helvetica, sans-serif;*/
@@ -46,10 +48,10 @@
   width: 10px;
   /* Set height to the line height of .text */
   height: 24px;
-  /* 
+  /*
   Animation paramaters:
-  blink = animation-name, 
-  1s = animation-duration, 
+  blink = animation-name,
+  1s = animation-duration,
   step-end = animation-timing-function,
   infinite = animation-iteration-count
   */

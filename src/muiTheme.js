@@ -5,7 +5,7 @@ import {
 import { fade } from 'material-ui/utils/colorManipulator';
 import spacing from 'material-ui/styles/spacing';
 
-export const primary1Color = '#3F51B5';
+export const primary1Color = '#2c5591';
 export const primary2Color = '#303F9F';
 export const primary3Color = '#C5CAE9';
 export const accent1Color = '#FF5722';
