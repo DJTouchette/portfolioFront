@@ -5,12 +5,13 @@ const applyMiddlewares = require('./middlewares/index');
 const port = 3000 || process.env.port;
 const Events = require('./sockets/index');
 const Post = require('./models/Post');
+const path = require('path');
 require('dotenv').config();
 
 applyMiddlewares(app);
 
 app.get('*', (req, res) => {
-  res.sendFile('build/index.html');
+  res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
 });
 
 // app.get('/about', (req, res) => {
