@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.ebe7b153.css",
-  "main.css.map": "static/css/main.ebe7b153.css.map",
-  "main.js": "static/js/main.a607dd4a.js",
-  "main.js.map": "static/js/main.a607dd4a.js.map",
+  "main.css": "static/css/main.4b2b556b.css",
+  "main.css.map": "static/css/main.4b2b556b.css.map",
+  "main.js": "static/js/main.14ef99d6.js",
+  "main.js.map": "static/js/main.14ef99d6.js.map",
   "static/media/Therevr.png": "static/media/Therevr.929b4de5.png",
   "static/media/about.svg": "static/media/about.3b1d479a.svg",
   "static/media/angular.png": "static/media/angular.e20cb949.png",
@@ -29,5 +29,6 @@
   "static/media/redux.png": "static/media/redux.59c46753.png",
   "static/media/slack.png": "static/media/slack.fa7ce522.png",
   "static/media/technology.svg": "static/media/technology.5ec010eb.svg",
-  "static/media/webpack.png": "static/media/webpack.80570b80.png"
+  "static/media/webpack.png": "static/media/webpack.80570b80.png",
+  "static/media/youtubelogo.png": "static/media/youtubelogo.c3356498.png"
 }
