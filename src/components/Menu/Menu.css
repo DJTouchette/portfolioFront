@@ -2,9 +2,16 @@
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
+
 }
 
 .atag {
   text-decoration: none;
   color: black;
+}
+
+.youtube {
+  margin-top: 8px;
+  max-width: 26px;
+  max-height: 25px;
 }
