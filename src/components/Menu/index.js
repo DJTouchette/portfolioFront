@@ -18,12 +18,15 @@ export class Menu extends React.Component {
 
   render() {
     return (
-      <div style={{ position: 'fixed', top: 0, width: '100%', zIndex: '7807147444'}}>
-        <AppBar
-          title="Damien Touchette"
-          iconClassNameRight="muidocs-icon-navigation-expand-more"
-          onLeftIconButtonTouchTap={this.handleToggle}
-        />
+      <div>
+        <div style={{ position: 'fixed', top: 0, width: '100%', zIndex: '99'}}>
+          <AppBar
+            title="Damien Touchette"
+            iconClassNameRight="muidocs-icon-navigation-expand-more"
+            onLeftIconButtonTouchTap={this.handleToggle}
+          />
+        </div>
+        <div style={{ zIndex: '999' }}>
         <Drawer
           docked={false}
           width={200}
@@ -41,6 +44,7 @@ export class Menu extends React.Component {
           />
           <hr/>
         </Drawer>
+      </div>
       </div>
     );
   }

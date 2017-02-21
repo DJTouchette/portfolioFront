@@ -7,7 +7,7 @@ import './Menu.css';
 const MenuItems = (props) => {
   const { list, handleClick } = props;
   const items = list.map((item) => {
-    if (item.external)
+    if (item.external){
       return (
         <MenuItem onTouchTap={handleClick.bind(this)} key={item.route}>
           <a className="atag" target="_blank" href={item.route}>
@@ -18,6 +18,7 @@ const MenuItems = (props) => {
           </a>
         </MenuItem>
       )
+    }
     return (
       <MenuItem onTouchTap={handleClick.bind(this)} key={item.route}>
         <Link className="atag" to={item.route}>
