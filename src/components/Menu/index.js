@@ -26,7 +26,7 @@ export class Menu extends React.Component {
             onLeftIconButtonTouchTap={this.handleToggle}
           />
         </div>
-        <div style={{ zIndex: '999' }}>
+        <div style={{ zIndex: '9999' }}>
         <Drawer
           docked={false}
           width={200}
