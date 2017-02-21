@@ -23,7 +23,6 @@ export class Menu extends React.Component {
           title="Damien Touchette"
           iconClassNameRight="muidocs-icon-navigation-expand-more"
           onLeftIconButtonTouchTap={this.handleToggle}
-          iconElementRight={<FlatButton href='https://www.youtube.com/channel/UCzTvUZmrkCrbOKHTATeJITg' label="Check out my new Youtube Channel" />}
         />
         <Drawer
           docked={false}
