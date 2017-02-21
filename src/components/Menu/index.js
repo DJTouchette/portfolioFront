@@ -1,6 +1,7 @@
 import React from 'react';
 import Drawer from 'material-ui/Drawer';
 import AppBar from 'material-ui/AppBar';
+import FlatButton from 'material-ui/FlatButton';
 import MenuItems from './MenuItems';
 import { menuItems } from './constants';
 import Avatar from 'material-ui/Avatar';
@@ -22,6 +23,7 @@ export class Menu extends React.Component {
           title="Damien Touchette"
           iconClassNameRight="muidocs-icon-navigation-expand-more"
           onLeftIconButtonTouchTap={this.handleToggle}
+          iconElementRight={<FlatButton href='https://www.youtube.com/channel/UCzTvUZmrkCrbOKHTATeJITg' label="Check out my new Youtube Channel" />}
         />
         <Drawer
           docked={false}

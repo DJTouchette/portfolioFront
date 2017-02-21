@@ -12,10 +12,14 @@
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-top: 25%;
+  margin-top: 50%;
 
   /*height: 90vh;
   width: 100vw;*/
+}
+
+.changeTextContainer {
+
 }
 
 .testimonialCard {

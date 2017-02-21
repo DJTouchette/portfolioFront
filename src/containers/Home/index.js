@@ -17,8 +17,6 @@ class Home extends Component {
       console.log(json);
     });
 
-
-
     const { action } = this.props.params;
     if (action === undefined) typeText();
     // this.setState({ action });
@@ -42,7 +40,7 @@ class Home extends Component {
             </div> :
 
             <div className="content">
-              <div>
+              <div className="changeTextContainer">
                 <h1 id="changeText">Hello World.</h1>
               </div>
             </div>
